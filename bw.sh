@@ -1,3 +1,2 @@
-#!/bin/bash
-sudo apt update
-sudo apt upgrade
+apt install docker.io docker-compose -y
+systemctl enable docker
